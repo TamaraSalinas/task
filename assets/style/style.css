@@ -1,0 +1,262 @@
+:not(dd) *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(248, 251, 227);
+}
+
+nav{
+    height: 10%;
+    background: rgb(101,105,83);
+    background: linear-gradient(121deg, rgba(101,105,83,1) 0%, rgba(240,224,150,1) 44%, rgba(219,240,220,1) 90%);
+    display: flex;
+    justify-content: space-evenly;
+   /*  flex-wrap: wrap; */
+} 
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-family:initial;
+    order: 1;
+    align-self: flex-end;
+
+}
+#logo{
+   width: 4rem;
+   order: 2;
+   /* margin-left:25rem; */
+}
+header{
+    min-width: 10%;
+    height: 30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+h1{
+    font-size: 3rem;
+    font-family:italic;
+   text-decoration:underline;
+}
+
+main{
+    min-height: 50%; 
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.personas{
+    width: 53rem;
+    margin-top: 2rem;
+}
+.inicio{
+    display: flex;
+    justify-content: space-around;
+}
+#text{
+    width: 28rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10rem;
+    
+}
+.inicio img{
+    margin-top: 5rem;
+    width: 28rem;
+    margin-bottom: 2rem;
+}
+/*     about us     */
+.contenedor1{
+    display: flex;
+   justify-content:space-evenly;
+   padding: 2rem ;
+   gap: 2rem;
+}
+.text2{
+    width: 20rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img2{
+    width: 23rem;
+}
+/*     contact    */
+.contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+}
+.contact img{
+    width: 40rem;
+}
+.contenedorC{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+}
+.contenedorC2{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+}
+.contact2{
+      display: flex;
+    font-size:2rem ;
+    font-family: 'Times New Roman', 0.5Times, serif;
+    justify-content: space-around;
+    padding: 2rem;
+}
+/*     informaciom     */
+.informacion{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+
+}
+ table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center; 
+    padding: 1rem;
+    text-align: center;
+}
+.informacion th{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 1.3rem;
+     background: rgb(238,242,220);
+     background: linear-gradient(121deg, rgba(238,242,220,1) 0%, rgba(227,238,149,1) 44%, rgba(219,240,220,1) 90%);
+     height: 2rem;
+}
+.informacion td{
+    width: 15rem;
+    height: 5rem;
+    background-color: rgba(238,242,220,1);
+}
+/* /*   beneficios y tips */
+ ol{
+    margin: 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.liBene{
+      font-family:italic;
+      margin-top: 1rem;
+      color:coral;
+}
+.ulBene{
+    list-style-type: square;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+/*         rifa      */
+#rifa{
+   text-align: center;
+   padding: 1rem;
+}
+form{
+    width: 20%;
+    height: 60vh;
+
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color:rgba(219,240,220,1) ;
+ }
+ .formulario{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+ }
+ .img-r2{
+    overflow: hidden;
+     width: 60%;
+     height: 60vh;
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+     object-fit: cover; 
+ }
+.img-r{
+    
+    width: 80%;
+ }
+input, option{
+    width:80%;
+}
+label{
+    width: 80%;
+    font-size: 1rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+legend{
+    font-size: 1.2rem; 
+    margin-bottom: 0.5rem;
+}
+.cash{
+    display: flex;
+    flex-direction: column;
+}
+/*      footer     */
+#map{
+    width: 20rem;
+    height: 10rem;
+    margin-left: 10rem;
+}
+footer{
+    height: 15%;
+    background: rgb(101,105,83);
+    background: linear-gradient(121deg, rgba(101,105,83,1) 0%, rgba(240,224,150,1) 44%, rgba(219,240,220,1) 90%);
+    display: flex;
+    justify-content: space-between;
+}
+#footer1{
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: flex;
+    align-items: center; 
+    gap: 1rem;
+    margin-right: 2rem;
+}
+/* #footer h3{
+    margin-top: 5rem;
+} */
+footer img{
+    width: 3rem;
+}
+ @media only screen and (min-width: 320px) and (max-width: 768px){
+ header{
+    min-width: 10vh;
+    display: flex;
+    background-color: red;
+ }
+ nav{
+    min-width: 5vh;
+    flex-direction: column;
+ }
+ .form-right, .r-imag{
+    display: flex;
+    flex-direction: column;
+ }
+
+}
+
+
